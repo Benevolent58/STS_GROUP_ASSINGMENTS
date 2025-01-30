@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Home Work</h1>
+
+  <h2> Beatrice Otsin</h3>
+
+<p>Create an ordered list of the top 5 most popular programming languages.</p>
+<ol>
+    <li> Python</li>
+    <li> JavaScript </li>
+    <li> Java</li>     
+    <li> HTML </li>
+    <li> CSS </li>
+</ol>
+
+<p>Create an unordered list of popular web development frameworks.</p>
+<ul>
+   <li> Django </li>
+   <li>Angular </li>
+   <li>Ruby on Rails</li>
+   <li>Laravel </li>
+    <li>Spring Frame Work</li>
+    </ul>
+    
+    <p>Create a definition list of key HTML terms.</P>
+
+    <dl> 
+        <dt>HTHL</dt>
+        <dd> HTML(Hypertext Markup Language)= is a text-based approach on a computer or device that provides access to other text through
+            links also known as hyperlink.</dd>
+
+
+
+
+</body>
+</html>
+
