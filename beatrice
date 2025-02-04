@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+
+</head>
+<body>
+    <h2>Job Application Form</h2>
+<form action="Job application" method="get" enctype="multipart/form-data">
+    <div>
+    <label for="full name">
+        Full Name:  
+    </label>
+      <input type= "text" name="full name" id="name" placeholder="Enter your full name" required>
+</div>
+<br>
+<div>
+     <label for="email">
+        Email:
+     </label>  
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+ </div> 
+ <br> 
+ <div>
+    <label for="password">
+        Password:
+    </label>
+      <input type="password" name="Password  id="password" required>  
+
+ </div> 
+ <br>
+ <div>
+    <label for="date">
+        Birthdate
+    </label>
+   <input type="date" name="date" id="date" min="1993" required>
+ </div>
+ <br>
+ <div>
+    Gender:
+    <label for="male">Male</label>
+     <input type="radio" name="gender" id="male"  value="male">
+   <label for="Female">Female</label>
+   <input type="radio" name="gender" id="female"  value="female">
+ </div>
+ <br>
+
+ <div>
+    <label for="file">Upload Resume:</label>
+    <input id="file" type="file" name="file">
+ </div>
+ <br>
+
+ <div>
+  <label for="skills">Skills: </label>
+    <textarea id="skills" name="skills"  id="skills"> </textarea> 
+ </div>
+ <br>
+ <div>
+    <label for="job role">Job Role</label>
+    <select name="job role" id="job role">
+    <option value="Front End Developer">Front End Developer</option>
+    <option label="Back End Developer">Back End Developer</option>
+    </select>  
+</form>
+<br>
+
+ <div>
+     <label for="Experince level">Experince Level:</label>
+      <input type="text" name="Experince level" id="Experince level">
+</div> 
+<br>
+ <div>
+     <input type="checkbox" name="Agreement" id="Agreement">
+    <label for="terms and conditions">I  agree to the terms and conditions.</label>
+    </div>
+    <br>
+    <div>
+     <label for="salary">Expected Salary ($)</label>
+     i<input type="range" name="salary" id="500" value="50">500
+    </div>
+    <br>
+      <button>Submit Application</button>
+      <button>Reset Form</button>
+    </div>
+</body>
+</html>
